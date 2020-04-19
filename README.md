@@ -15,7 +15,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Summary
 The analysis of the election show that:
-- There were "x" votes cast in the lection.
+- There were "x" votes cast in the election.
 - The candidates were:
   - Candidate 1
   - Candidate 2
@@ -29,4 +29,20 @@ The winner of the election was:
   
 ## Challenge Overview
 
-## Challenge Summary
+## Challenge 3 Summary
+The challenge is adding the voter turnout for each county that voted in this congressional district.
+- There were 3 counties:
+  - County 1
+  - County 2
+  - County 3
+ - The County results were:
+  - County 1 recieved "x%" of the vote and "y" number of votes.
+  - County 2 recieved "x%" of the vote and "y" number of votes.
+  - County 3 recieved "x%" of the vote and "y" number of votes.
+ - The Winning County that contributed more votes to the election:
+  - Largest County Turnout: County (1, 2 or 3)
+  
+  ## Files for the challenge 3
+  - PyPoll_Challenge.py
+  - Resources (Folder contains the election results)
+  - Analysis (Folder contains election_analysis.txt file)
