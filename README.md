@@ -30,7 +30,12 @@ The winner of the election was:
 ## Challenge Overview
 
 ## Challenge 3 Summary
-The challenge is adding the voter turnout for each county that voted in this congressional district.
+The challenge is adding the voter turnout for each county that voted in this congressional district.  The following steps were added to the code:
+  - 1. A complete list of the counties that recieved votes.
+  - 2. The total number of votes each county contributed.
+  - 3. The percentage of votes each county contributed.
+  - 4. The winner county of the election based on votes.
+
 - There were 3 counties:
   - County 1
   - County 2
