@@ -35,11 +35,11 @@ The challenge is adding the voter turnout for each county that voted in this con
   - County 1
   - County 2
   - County 3
- - The County results were:
+- The County results were:
   - County 1 recieved "x%" of the vote and "y" number of votes.
   - County 2 recieved "x%" of the vote and "y" number of votes.
   - County 3 recieved "x%" of the vote and "y" number of votes.
- - The Winning County that contributed more votes to the election:
+- The Winning County that contributed more votes to the election:
   - Largest County Turnout: County (1, 2 or 3)
   
   ## Files for challenge 3
