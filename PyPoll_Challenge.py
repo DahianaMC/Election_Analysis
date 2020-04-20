@@ -10,7 +10,7 @@
 # 9. The winner of the election based on popular vote.
 
 
-# Import modules to read csv files and create path to save a file.
+# Import modules to read csv files and create path to save and read a files.
 import csv
 import os
 
@@ -38,8 +38,6 @@ county_votes = {}
 # Winning County and Winning County Count Tracker
 winning_county = ""
 winningCounty_count = 0
-winningCounty_percentage = 0
-
 
 # Winning Candidate and Winning Count Tracker
 winning_candidate = ""
@@ -99,7 +97,7 @@ with open(file_to_save, "w") as txt_file:
         txt_file.write(election_results)
 
         # Determine the percentage of votes for each county by looping through the vote counts by county.
-        # Iterate through the county dict.
+        # Iterate through the county votes.
         for county in county_votes:
             # Retrieve vote count of a county
             votes = county_votes[county]
@@ -131,7 +129,7 @@ with open(file_to_save, "w") as txt_file:
         txt_file.write(winning_county_summary)
 
         # Determine the percentage of votes for each candidate by looping through the vote counts by candidate.
-        # Iterate through the candidate dict.
+        # Iterate through the candidate votes.
         for candidate in candidate_votes:
             # Retrieve vote count of a candidate
             votes = candidate_votes[candidate]
