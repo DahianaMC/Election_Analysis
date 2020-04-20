@@ -42,7 +42,7 @@ The challenge is adding the voter turnout for each county that voted in this con
  - The Winning County that contributed more votes to the election:
   - Largest County Turnout: County (1, 2 or 3)
   
-  ## Files for the challenge 3
+  ## Files for challenge 3
   - PyPoll_Challenge.py
   - Resources (Folder contains the election results)
   - Analysis (Folder contains election_analysis.txt file)
